@@ -367,3 +367,72 @@ img {
 }
 
 /* testimoials section */
+
+#testimoials {
+    padding: 65px 4% 80px;
+    text-align: center;
+}
+
+#testimoials .test-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.test-list .review {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    cursor: pointer;
+}
+
+.test-list .review:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.review i {
+    font-size: 54px;
+    color: #13e824;
+}
+
+.review .review-test {
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+    padding: 20px 0 30px;
+}
+
+.review .review-by {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    text-align: start;
+}
+
+.review .img {
+    flex-basis: 20%;
+}
+
+.review .img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.review-by .info {
+    height: 60px;
+}
+
+.review-by .info .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review-by .info .register {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+
+}
