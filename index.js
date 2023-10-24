@@ -14,3 +14,13 @@ function openTab(tabname) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
 }
+
+//Get SideMenu
+let SideMenu = document.querySelector(".sidemenu");
+//on openmenu function call
+function openMenu() {
+  SideMenu.style.right = "0";
+}
+function closeMenu() {
+  SideMenu.style.right = "-250px";
+}

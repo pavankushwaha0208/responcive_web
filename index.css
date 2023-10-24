@@ -149,6 +149,55 @@ img {
     transform: scale(1.1);
 }
 
+/* Responsiv Disigen */
+@media (max-width: 920px) {
+    .nev-menu .fa-solid {
+        display: block;
+        color: #13e824;
+        font-size: 22px;
+    }
+
+    .nev-menu ul {
+        background-color: #120f2d;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        padding-top: 65px;
+        z-index: 2;
+        transition: all 0.5s;
+    }
+
+    .nev-menu ul li {
+        display: block;
+        color: #13e824;
+        margin: 20px;
+    }
+
+    .nev-menu ul .fa-solid {
+        position: absolute;
+        top: 26px;
+        left: 26px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 560px) {
+    .header-bottom .bottom-left .name {
+        font-size: 40px;
+    }
+
+    .bottom-left .profectional {
+        font-size: 20px;
+    }
+
+    .bottom-left .short-desc {
+        font-size: 18px;
+        padding: 20%;
+    }
+}
+
 /* About Section */
 #about {
     width: 100%;
@@ -238,6 +287,76 @@ img {
 
 .about-right .tab-contents.active-tab {
     display: block;
+}
+
+/* responcive digen */
+@media (max-width: 920px) {
+    #about .about-left {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    #about .about-left img {
+        display: block;
+
+        width: 50%;
+    }
+
+    #about .about-right {
+        flex-basis: 100%;
+    }
+
+    .about-right .tab-links {
+        margin-right: 60px;
+        font-size: 20px;
+    }
+
+    .about-right .tab-contents ul li {
+        font-size: 18px;
+    }
+
+    .about-right .tab-contents ul li span {
+        font-size: 16px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    #about .about-left {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    #about .about-left img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
+    }
+
+    #about .about-right {
+        flex-basis: 100%;
+    }
+
+    .about-right .tab-links {
+        margin-right: 60px;
+        font-size: 25px;
+    }
+
+    .about-right .tab-contents ul li {
+        font-size: 22px;
+    }
+
+    .about-right .tab-contents ul li span {
+        font-size: 20px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
 }
 
 /* services section */
@@ -439,7 +558,7 @@ img {
 /* contact section  */
 #contact {
     background-color: #13e824;
-    padding: 60px 8% 40px;
+    padding: 65px 8% 40px;
     text-align: center;
 }
 
@@ -471,4 +590,61 @@ img {
     border: 0;
     outline: none;
     background-color: #f7f7f7;
+    color: #120f2d;
+    resize: none;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
 }
+
+.contact-left form button {
+    background-color: #000;
+    color: #f7f7f7;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.contact .vl {
+    border-left: 2px solid #fff;
+    height: 320px;
+}
+
+.contact .contact-right {
+    text-align: left;
+}
+
+.contact-right .col {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-right .col i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.col .info .title {
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #120f2d;
+}
+
+.copyright a:hover {
+    color: white;
+}
+
+/* Responsiv Disigen */
+@media screen and (max-width: 920px) {}
