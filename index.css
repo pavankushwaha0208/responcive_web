@@ -437,4 +437,38 @@ img {
 }
 
 /* contact section  */
-/* #contact */
+#contact {
+    background-color: #13e824;
+    padding: 60px 8% 40px;
+    text-align: center;
+}
+
+#contact .section-title .sub-title {
+    color: #fff;
+}
+
+#contact .contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+#contact .contact-left,
+#contact .contact-right {
+    flex-basis: 50%;
+}
+
+#contact .contact-left form {
+    width: 100%;
+}
+
+.contact-left form input,
+.contact-left form textarea,
+.contact-left form button {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #f7f7f7;
+}
